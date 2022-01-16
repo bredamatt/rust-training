@@ -1,20 +1,39 @@
 # rust-training
 
-I use this repo to work on improving my Rust programming skills
+This repository is used to practice the Rust programming language and associated tools.
 
-## Installing rust (macOS) 
+## Installing Rust (macOS)
 
 Use:
+
 ```
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-This will also instal `rustup` 
+This also installs `cargo` and `rustup`.
 
-### Updating
+### Patch / Update
 
-To update rust, levearge `rustup` functionality:
+Use:
 
 ```
-$ rustup update 
+$ rustup update
+```
+
+
+## Create new binary} project
+
+Leverage `cargo` for this:
+
+```
+$ cargo new <name> --bin
+```
+
+which will give:
+
+```
+.
+├── Cargo.toml
+└── src
+    └── main.rs
 ```
