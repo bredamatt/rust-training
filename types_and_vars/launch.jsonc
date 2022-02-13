@@ -1,0 +1,14 @@
+{
+    "version": "0.1",
+    "configurations":
+    [
+        {
+            "name": "(OSX) Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/types_and_vars/main",
+            "args": [],
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
