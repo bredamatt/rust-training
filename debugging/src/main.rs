@@ -9,4 +9,5 @@ fn main() {
     let mut x: i32 = 3;
     x = double_value(x);
     x = 42;
+    println!("Test keybind")
 }
